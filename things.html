@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Улюблене - lord of the rings</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+       <header>
+            <div class="header-container">
+                    <h1 class="logo">Lord</h1>
+             <nav class="main-nav">
+                <a href="index.html">Головна</a>
+                <a href="films.html">Фільми</a>
+                <a href="books.html">Книги</a>
+                <a href="things.html"class="active">Улюблені речі</a>
+                
+            </nav>
+            <div class="header-tools">
+                        <button id="toggle-theme">🌓</button>
+                    </div>
+                </div>
+        </header>
+        <main>
+                       <h1>Улюблені речі</h1>
+            <form id="addForm">
+                <input type="text" id="title" placeholder="Назва" required />
+                <textarea
+                    id="description"
+                    placeholder="Опис"
+                    rows="3"
+                    required
+                ></textarea>
+                <input
+                    type="url"
+                    id="image"
+                    placeholder="URL картинки"
+                    required
+                />
+                <button type="submit">Додати</button>
+            </form>
+            <ul id="itemsList"></ul>
+            <!-- унікальний контент -->
+        </main>
+        <footer>
+            <p>© 2025 Толкин </p>
+        </footer>
+    </body>
+    <script src="lile.js"></script>
+     <script src="skr.js"></script>
+
+</html>
